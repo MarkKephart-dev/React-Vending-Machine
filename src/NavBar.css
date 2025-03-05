@@ -1,0 +1,31 @@
+.NavBar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    background-color: #555;
+  }
+  
+  /* Active Link Styling */
+  .active-link {
+    background-color: #666; /* Darker color for active link */
+    border-radius: 5px;
+  }
